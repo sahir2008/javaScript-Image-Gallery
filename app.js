@@ -1,4 +1,4 @@
-const auth = "563492ad6f91700001000001412d345d2f76459b9d954c6dfe0ffbbe";
+const auth = process.env.API_KEY;
 const gallery = document.querySelector(".gallery");
 const searchInput = document.querySelector(".search-input");
 const form = document.querySelector(".search-form");
